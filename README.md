@@ -7,6 +7,10 @@ Install from npmjs.org:
 
     npm install -g lock-treatment-tool
 
+or run using `npx`
+
+    npx -p lock-treatment-tool locktt
+
 ## Current commands
 
  * **`locktt`**
