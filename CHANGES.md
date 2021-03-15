@@ -1,4 +1,4 @@
-2020-03-15, Version 0.4.2
+2021-03-15, Version 0.4.2
 =========================
 
  - npm package-lock v2 support
