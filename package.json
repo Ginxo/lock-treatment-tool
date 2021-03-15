@@ -1,6 +1,6 @@
 {
   "name": "lock-treatment-tool",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "Npm (package-lock-json, npm-shrinkwrap.json) and Yarn lock files treatment tool",
   "main": "index.js",
   "repository": {
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/ginxo/lock-treatment-tool",
   "scripts": {
-    "test": "jest && rimraf __test__/resources/execution-*",
+    "test": "jest && rimraf '__test__/**/execution-*'",
     "lint": "eslint '**/*.js' --ignore-pattern node_modules/",
     "lint:fix": "eslint '**/*.js' --ignore-pattern node_modules/ --fix",
     "prepublish": "npm test"
